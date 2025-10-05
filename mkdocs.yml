@@ -1,0 +1,59 @@
+site_name: Notes by Rishikesh
+site_url: "https://rishikeshvadodaria.github.io/mkdocs/"
+
+nav:
+  - Home: index.md
+  - Mobile Computing: mobile-computing.md
+  - Computer Vision: cv-m2.md
+  - RPA: rpa-m2.md
+  - RPA formulas: rpa-m2-formula.md
+
+theme:
+  name: material
+  features:
+    # - navigation.tabs
+    # - navigation.sections
+    # - navigation.expand
+  icon:
+    logo: material/atom-variant
+    
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - js/extras.js
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  generator: false
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+  - css/navbar.css
+  - css/divider.css
+  - css/font.css
+  - css/waves.css
+  - css/extra.css
+  - css/widgets.css
+  - css/countdown.css
+  - css/nav.css
