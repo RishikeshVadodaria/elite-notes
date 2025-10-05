@@ -1,12 +1,9 @@
-site_name: Notes by Rishikesh
-site_url: "https://rishikeshvadodaria.github.io/mkdocs/"
+site_name: Elite Notes
+site_url: "https://rishikeshvadodaria.github.io/elite-notes/"
 
 nav:
   - Home: index.md
-  - Mobile Computing: mobile-computing.md
-  - Computer Vision: cv-m2.md
-  - RPA: rpa-m2.md
-  - RPA formulas: rpa-m2-formula.md
+
 
 theme:
   name: material
@@ -15,7 +12,8 @@ theme:
     # - navigation.sections
     # - navigation.expand
   icon:
-    logo: material/atom-variant
+    logo: material/Aurora
+    
     
 
 extra_javascript:
@@ -51,9 +49,11 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
   - css/navbar.css
   - css/divider.css
-  - css/font.css
-  - css/waves.css
-  - css/extra.css
+  # - css/font.css
+  # - css/waves.css
+  - css/main.css
   - css/widgets.css
-  - css/countdown.css
-  - css/nav.css
+  - css/circles.css
+  # - css/countdown.css
+  # - css/nav.css
+

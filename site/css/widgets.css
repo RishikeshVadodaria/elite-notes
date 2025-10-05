@@ -31,20 +31,26 @@
   transform: translateY(-5px);
 }
 
-/* Neon Glow Colors (cycle every 4 cards) */
+/* Neon Glows per card */
+.page-container .page:nth-child(1):hover {
+  border-color: #ff8c3d;
+  box-shadow: 0 0 16px 4px #ff8c3d;
+}
 
-.page-container .page:nth-child(2n+1):hover {
+.page-container .page:nth-child(2):hover {
   border-color: #c74fff;
   box-shadow: 0 0 16px 4px #c74fff;
 }
 
-.page-container .page:nth-child(2n+2):hover {
+.page-container .page:nth-child(3):hover {
   border-color: #40e0d0;
   box-shadow: 0 0 16px 4px #40e0d0;
 }
 
-
-
+.page-container .page:nth-child(4):hover {
+  border-color: #ffd52e;
+  box-shadow: 0 0 16px 4px #ffd52e;
+}
 
 /* Title */
 .page::before {
