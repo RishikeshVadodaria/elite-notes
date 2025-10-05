@@ -12,7 +12,7 @@ theme:
     # - navigation.sections
     # - navigation.expand
   icon:
-    logo: material/Aurora
+    logo: material/atom-variant
     
     
 
